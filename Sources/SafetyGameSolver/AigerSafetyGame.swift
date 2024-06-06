@@ -187,7 +187,8 @@ public struct AigerSafetyGame: SafetyGame {
                 return lit + offset
             default:
                 assert(false)
-                abort()
+                return lit
+                //abort()
             }
         }
         
